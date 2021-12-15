@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Guest count event:</strong>
+  <%= @contact.guest_count_event %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @contact.date %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @contact.comments %>
+</p>
+
+<%= link_to 'Edit', edit_contact_path(@contact) %> |
+<%= link_to 'Back', contacts_path %>

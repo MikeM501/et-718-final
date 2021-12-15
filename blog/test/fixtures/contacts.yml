@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  guest_count_event: MyString
+  date: MyString
+  comments: MyText
+
+two:
+  guest_count_event: MyString
+  date: MyString
+  comments: MyText
